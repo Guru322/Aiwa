@@ -4,7 +4,7 @@ require("dotenv").config();
   const moment = require("moment-timezone"); 
   //const fetch = require("node-fetch"); 
   const axios = require("axios"); 
-  const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia,  areJidsSameUser, getContentType, downloadMediaMessage } = require("@adiwajshing/baileys");  
+  const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia,  areJidsSameUser, getContentType, downloadMediaMessage } = require("@whiskeysockets/baileys");  
   const fs = require("fs");  
   const util = require("util");  
   const chalk = require("chalk");  
